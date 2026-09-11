@@ -1,0 +1,24 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.wasm
+browsernetd
+/dist/
+
+# Test / coverage
+*.test
+*.out
+coverage.html
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Go workspace (local)
+go.work
+go.work.sum
