@@ -28,6 +28,8 @@ var (
 	ErrWebRTCUnavailable = errors.New("browsernet: WebRTC is not available in this runtime")
 	// ErrEmptyHost is returned when a lookup is requested for an empty name.
 	ErrEmptyHost = errors.New("browsernet: empty hostname")
+	// ErrNotConfigured is returned when New is called without a proxy or gateway.
+	ErrNotConfigured = errors.New("browsernet: no proxy or gateway configured")
 )
 
 // SOCKSReplyError is a SOCKS5 reply code from RFC 1928 section 6.
